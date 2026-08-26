@@ -3,62 +3,26 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shopping list example</title>
-    <style>
-      li {
-        margin-bottom: 10px;
-      }
-
-      li button {
-        font-size: 12px;
-        margin-left: 20px;
-        color: #666;
-      }
-    </style>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bonbon&family=Caprasimo&family=Capriola&family=Gorditas:wght@400;700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
   </head>
   <body>
+    <div id="header">
+      <p id="title">Rock, Paper, Scissors</p>
+    </div>
+    
+    <div>
+      <div>
+        <p>Pick Your Object:</p>
+      </div>
 
-    <h1>My shopping list</h1>
+    </div>
+    
 
-    <form>
-      <label for="item">Enter a new item:</label>
-      <input type="text" name="item" id="item">
-      <button>Add item</button>
-    </form>
-
-    <ul>
-
-    </ul>
-
-    <script>
-      //variables initalized for ul, input, and addBtn.
-
-      const unOrdered = document.querySelector("ul");
-      const inputVal = document.querySelector("#item");
-      const addBtn = document.querySelector("form button");
-
-    addBtn.addEventListener("click", (event) => {
-    event.preventDefault();
-
-    let inputValue = inputVal.value;
-    inputVal.value = "";
-
-    const listItem = document.createElement("li");
-    const span = document.createElement("span");
-    const delBtn = document.createElement("button");
-
-    listItem.appendChild(span);
-    listItem.appendChild(delBtn);
-    span.textContent = inputValue;
-    delBtn.textContent = "delete";
-    unOrdered.appendChild(listItem);
-
-    delBtn.addEventListener("click", () => {
-        unOrdered.removeChild(listItem);
-    });
-});
-
-inputVal.focus();
-    </script>
   </body>
+ 
 </html>

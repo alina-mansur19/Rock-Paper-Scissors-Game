@@ -30,7 +30,7 @@ function getHumanChoice(){
 
 // console.log(humanSelection);    
 
- 
+
 function playGame(){
     console.log("w0rking");
      humanSelection = humanSelection.toLowerCase();
@@ -94,4 +94,3 @@ function playGame(){
    
 }
 
-playGame();

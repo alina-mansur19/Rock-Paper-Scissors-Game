@@ -28,7 +28,7 @@ function getHumanChoice(){
  let computerScore = 0;
 
 
-// console.log(humanSelection);    
+   
 
 
 function playGame(){

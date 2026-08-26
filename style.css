@@ -1,13 +1,82 @@
-#title{
-    font-family: Gorditas;
-    font-size: 100px;
-    text-align: center;
-
-}
 body{
 background-color: #E5E5F7;
 opacity: 0.8;
 background-image:  linear-gradient(#8f8f8f 1px, transparent 1px), linear-gradient(90deg, #8f8f8f 1px, transparent 1px), linear-gradient(#8f8f8f 0.5px, transparent 0.5px), linear-gradient(90deg, #8f8f8f 0.5px, #E5E5F7 0.5px);
 background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
 background-position: -1px -1px, -1px -1px, -0.5px -0.5px, -0.5px -0.5px;
+}
+
+#title{
+    font-family: Gorditas;
+    font-size: 100px;
+    text-align: center;
+
+}
+
+#instruction{
+    font-family: Caprasimo;
+    font-size: 30px;
+    background-color:#ececfc;
+    padding: 0;
+    width:fit-content;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 3%;
+    border: 2px solid #8f8f8f;
+    border-radius: 10px;
+    margin-bottom: 4%;
+}
+
+#objects{
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-basis: auto;
+    flex-grow: 2;
+    margin-bottom: 10%;
+}
+
+#choice{
+    font-family: Caprasimo;
+    font-size: 40px;
+    flex: 1;
+    background-color:#8f8f8f;
+    padding: 5%;
+    text-align: center;
+    border: 2px solid #494949;
+    border-radius: 10px;
+}
+
+#result{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2%;
+
+}
+
+#id{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color:#ececfc;
+    border: 2px solid #8f8f8f;
+    border-radius: 10px;
+    padding: 1%;
+    width: 100px;
+    text-align: center;
+
+}
+
+
+#score{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-around;
+    
+    
 }

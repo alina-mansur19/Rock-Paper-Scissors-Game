@@ -21,8 +21,8 @@ function getHumanChoice(){
     return humanChoice;
 }
 
- let humanSelection = getHumanChoice();
- let computerSelection = getComputerChoice();
+
+
 
  let humanScore = 0;
  let computerScore = 0;
@@ -33,6 +33,8 @@ function getHumanChoice(){
 
 function playGame(){
     console.log("w0rking");
+     let humanSelection = getHumanChoice();
+ let computerSelection = getComputerChoice();
      humanSelection = humanSelection.toLowerCase();
    
     function playRound(humanSelection,computerSelection){
